@@ -1,0 +1,49 @@
+.my-navbar{
+    background-color: rgba(14, 213, 104, 0.66) !important;
+}
+
+form{
+    max-width: 500px;
+    width: 40%;
+    min-width: 400px;
+    border: 1px solid rgb(232, 230, 230);
+    border-radius: 1.5%;
+    padding: 2%;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(7, 202, 40, 0.2), 0 6px 20px 0 rgba(37, 223, 0, 0.19);
+}
+
+.my-btn{
+    background-color: rgba(14, 213, 104, 0.66) ;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+
+}
+
+.my-btn:hover {
+    background-color: rgba(22, 171, 89, 0.66);
+    color: white;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    text-align: center;
+}
+
+
+
+.my-col{
+    height: 5vh;
+    padding-top: 1vh;
+    border: 1px solid black
+}
+
+.my-box{
+    width: 100%;
+}

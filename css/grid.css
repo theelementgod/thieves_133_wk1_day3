@@ -1,0 +1,41 @@
+*{
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header"
+    "whitespace1 content content content whitespace2"
+    "footer footer footer footer footer";
+
+}
+
+
+
+.header{
+    grid-area: header;
+    height: 10vh;
+}
+
+.whitespace1{
+    grid-area: whitespace1;
+    height: 10vh;
+}
+.whitespace2{
+    grid-area: whitespace2;
+    height: 10vh;
+}
+
+.content{
+    grid-area: content;
+    height: 10vh;
+}
+
+.footer{
+    grid-area: footer;
+    height: 10vh;
+}
